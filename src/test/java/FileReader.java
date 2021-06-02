@@ -28,6 +28,7 @@ public class FileReader {
         System.out.println(file.isDirectory());
         System.out.println(file.getName());
         System.out.println(file.getPath());
+        System.out.println(file.getTotalSpace());
 
     }
     @Test(enabled = false)

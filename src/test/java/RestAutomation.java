@@ -17,7 +17,7 @@ public class RestAutomation {
     {
 
         Response response =RestAssured.get("https://reqres.in/api/users?page=2");
-
+//testing
         System.out.println(response.getBody().toString());
         System.out.println(response.asString());
         System.out.println(response.getStatusCode());
