@@ -1,0 +1,22 @@
+Git init                                          | To add git to local project ot to make any project as git
+Git add test1.java                                |To add newly created to local repository
+git commit -m "Commiting test1.java "             |
+touch test2.text                                  | To create new file
+git log --oneline                                 | To get all the commits done so far
+git log --oneline featurebranch                   | To get all the commits done so far
+git branch featureBarnch1                         | To create new feature branch
+git branch                                        | To get all branches
+git checkout featureBarnch1                       | to checkout newly created branch
+git merge featureBarnch1                          | To merge feature branch to master
+vim test.txt                                      | To create new file in and edit it
+Cat test.txt                                      | to check the containt
+git log --oneline --graph                         | To check the graphical representation
+git branch -d branch1                             | To delete feature branch
+
+Fast Forward Merge   MC1 MC2 BC1 BC2 Merge
+Three Way merge      MC1 MC2 BC1 BC2 MC3 Merge
+
+Rebase(Dont use rebase for remote repository)
+step 1: git rebase master                         |Adding feature branch on top of master branch
+step 2: git merge featurebranch                   |Merge feature branch to master branch
+step 3:
