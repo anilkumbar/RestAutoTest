@@ -12,6 +12,8 @@ vim test.txt                                      | To create new file in and ed
 Cat test.txt                                      | to check the containt
 git log --oneline --graph                         | To check the graphical representation
 git branch -d branch1                             | To delete feature branch
+git clone "URL"                                   | Clone the project to local repository
+git push origin master/branch                     | To push the changes to remote repository
 
 Fast Forward Merge   MC1 MC2 BC1 BC2 Merge
 Three Way merge      MC1 MC2 BC1 BC2 MC3 Merge
@@ -19,4 +21,4 @@ Three Way merge      MC1 MC2 BC1 BC2 MC3 Merge
 Rebase(Dont use rebase for remote repository)
 step 1: git rebase master                         |Adding feature branch on top of master branch
 step 2: git merge featurebranch                   |Merge feature branch to master branch
-step 3:
+
