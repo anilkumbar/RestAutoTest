@@ -14,6 +14,7 @@ git log --oneline --graph                         | To check the graphical repre
 git branch -d branch1                             | To delete feature branch
 git clone "URL"                                   | Clone the project to local repository
 git push origin master/branch                     | To push the changes to remote repository
+git pull origin master/branch                     | To pull the latest change from remote to local
 
 Fast Forward Merge   MC1 MC2 BC1 BC2 Merge
 Three Way merge      MC1 MC2 BC1 BC2 MC3 Merge
