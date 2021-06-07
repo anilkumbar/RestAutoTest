@@ -43,7 +43,7 @@ public class FileReader {
     {
         try
         {
-            File fis = new File("C://Users//ankumbar//Downloads//Interview Feedback.xlsx");
+            File fis = new File("src//test//resources//Interview Feedback.xlsx");
 
             XSSFWorkbook wb = new XSSFWorkbook(fis);
             XSSFSheet sheet = wb.getSheetAt(0);     //creating a Sheet object to retrieve object
