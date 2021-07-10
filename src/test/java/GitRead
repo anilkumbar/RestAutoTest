@@ -2,7 +2,21 @@ Git init                                          | To add git to local project 
 Git add test1.java                                |To add newly created to local repository
 git commit -m "Commiting test1.java "             |
 git commit -a -m "Both the files are update"      | when files are update can be commited to locat repository
+git diff a.txt                                    | two find the difference btwen 2 files
+git diff HEAD a.txt                               | diff btwn working directory and last commit
+git diff --staged HEAD a.txt                      | diff btwn staged copy and last commit
+git diff 6Off098 a.txt                            | diff btwn partucular commit(id) and working directory
 touch test2.text                                  | To create new file
+git rm a.txt                                      | Removes file from working and stagging area
+git rm --cached a.txt                             | to remore only from staging area
+rm a.txt                                          | Removing file from working directory
+ls                                                | files from working directory
+git ls-files                                      | files from stagging area
+git reset a.txt                                   | files to revoke from stagging area(opposit to git Add)
+git reset --mixed 60ff789                         | commits to revoke from local repository and stagging area
+git reset --soft 60ff789                          | commits to revoke from local repository only
+git reset --hard 60ff789                          | commits to revoke from local repository, stagging and working directry
+git checkout -- a.txt                             | discard unstaged changes in the tracked files of working directory
 git log --oneline                                 | To get all the commits done so far
 git log --oneline featurebranch                   | To get all the commits done so far
 git branch featureBarnch1                         | To create new feature branch
