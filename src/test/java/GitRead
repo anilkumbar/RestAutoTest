@@ -38,3 +38,5 @@ Rebase(Dont use rebase for remote repository)
 step 1: git rebase master                         |Adding feature branch on top of master branch
 step 2: git merge featurebranch                   |Merge feature branch to master branch
 
+Adding directly for Git
+
