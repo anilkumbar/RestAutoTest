@@ -6,7 +6,7 @@ import static io.restassured.RestAssured.*;
 public class RestAutomationDelete {
 
     /*Delete is used to Delete the content */
-    @Test(enabled = false)
+    @Test(enabled = true)
     public void restAutoDelete()
     {
         when().
@@ -16,7 +16,7 @@ public class RestAutomationDelete {
                 log().all();
 
     }
-    @Test(enabled = true)
+    @Test(enabled = false)
     public void restNodeJsAutoDelete()
     {
         JSONObject request = new JSONObject();
@@ -28,15 +28,15 @@ public class RestAutomationDelete {
         //request.put("xyz",90);
 
         baseURI="http://localhost:3000/";
-        given().
-                header("Content-Type", "application/json").
-                contentType(ContentType.JSON).
-                accept(ContentType.JSON).
-                body(request.toJSONString()).
-                when().
-                patch("/Users/5").
-                then().
-                statusCode(200).
-                log().all();
-    }
+//        given().
+//                header("Content-Type", "application/json").
+//                contentType(ContentType.JSON).
+//                accept(ContentType.JSON).
+//                body(request.toJSONString()).
+//                when().
+//                patch("/Users/5").
+//                then().
+//                statusCode(200).
+//                log().all();
+            }
 }
