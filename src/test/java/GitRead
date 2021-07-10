@@ -1,6 +1,7 @@
 Git init                                          | To add git to local project ot to make any project as git
 Git add test1.java                                |To add newly created to local repository
 git commit -m "Commiting test1.java "             |
+git commit -a -m "Both the files are update"      | when files are update can be commited to locat repository
 touch test2.text                                  | To create new file
 git log --oneline                                 | To get all the commits done so far
 git log --oneline featurebranch                   | To get all the commits done so far
